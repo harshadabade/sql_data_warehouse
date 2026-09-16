@@ -1,0 +1,18 @@
+// Create database and Schema
+Script Purpose Create a new database name "DataWarehouse" and deleted existed one.Script set up 3 schema "Bronze" , "Silver" , "Gold"*//
+
+USE master;
+
+--Create new database 
+CREATE DATABASE DataWarehouse;
+
+USE DataWarehouse;
+--Created 3 Schema
+
+GO
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
+GO
