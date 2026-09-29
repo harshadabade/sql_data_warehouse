@@ -47,3 +47,11 @@ Data Treatment Highlights
 3) Gender & Country Mapping – Human‑readable values ('Female', 'United States', etc.) are derived from raw codes.
 4) Deduplication – Latest record per primary key retained using ROW_NUMBER().
 5) Integrity Checks – Foreign‑key‑style validations ensure sales details reference existing products and customers.
+
+6) This project was developed as a learning project based on the SQL Data Warehouse tutorial by Data With Baraa.
+
+Some diagrams and images in this repository are from the original tutorial/project and are included for educational reference. The original work and images belong to Data With Baraa.
+
+Original project/tutorial: Data With Baraa – SQL Data Warehouse Project
+
+I have made my own modifications and additions while using the project to learn SQL, data warehousing, ETL/ELT, dimensional modeling, and data analysis.
